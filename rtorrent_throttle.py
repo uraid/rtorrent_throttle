@@ -14,7 +14,7 @@ RTORRENT_RPC	= f"https://{RTORRENT_USER}:{RTORRENT_PASS}@{RTORRENT_URL}/{RPC_PAT
 
 SUPPORTED_API_VERSIONS = [9, 10]
 IGNORE_SSL_CERT	= False
-DEBUG	= True
+DEBUG	= False
 
 class throttle():
 	def __init__(self):
